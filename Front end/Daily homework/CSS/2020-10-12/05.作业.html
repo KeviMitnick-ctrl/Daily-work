@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./reset.css">
+  <style>
+    header,footer{
+      width: 900px;
+      height: 100px;
+      margin: 10px auto;
+      border: 1px solid red;
+      line-height: 100px;
+      font-size: 24px;
+      text-align: center;
+    }
+    main{
+      overflow: hidden;
+      font-size: 24px;
+      width: 900px;
+      height: 700px;
+      margin: 0 auto;
+      margin-bottom: 10px;
+      border: 1px solid red;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+   main .left{
+     float: left;
+     width: 190px;
+     height: 680px;
+     box-sizing: border-box;
+     border: 1px solid #0cb4de;
+
+   }
+   main .right{
+    float: right;
+    width: 676px;
+    height: 680px;
+    border: 1px solid #19cf62;
+   }
+   p{
+     margin-top: 100px;
+     margin-bottom: 14px;
+   }
+   strong{
+     display: inline-block;
+     margin-top: 120px;
+   }
+   span{
+     color: #ff1111;
+   }
+   small{
+     color: #353535;
+   }
+  </style>
+</head>
+<body>
+  <!-- 容器 -->
+  <header>
+  头部  
+  </header>
+  <main>
+    <div class="left">
+     <p> 主体左半边</p>
+     <span>宽190px</span>
+     <small>(算边框)</small>
+    </div>
+    <div class="right">
+     <strong>主体右半边</strong>
+      
+    </div>
+  </main>
+  <footer>
+    尾部
+  </footer>
+</body>
+</html>
